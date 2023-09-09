@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 const Car = () => {
   return (
-    <div className=''>
+    <div className='flex items-center justify-center'>
       <Image
                     src='/car.svg'
                     alt='car'
-                    className='car dark:invert'
-                    width={240}
-                    height={240}
+                    className='car '
+                    width={80}
+                    height={80}
                     priority
                 />
     </div>

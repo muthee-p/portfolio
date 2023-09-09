@@ -4,17 +4,17 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: #eab676;
+  --background-end-rgb: #eeeee4;
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+}*/
 
 ::-webkit-scrollbar {
     width: 9px; /* Width of the vertical scrollbar */
@@ -48,10 +48,11 @@ body {
 
 .car {
   position: fixed;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   animation: walk 1s infinite alternate;
 }
+
 
 @keyframes walk {
   0% {
