@@ -16,6 +16,26 @@
   }
 }
 
+::-webkit-scrollbar {
+    width: 9px; /* Width of the vertical scrollbar */
+  }
+
+  /* Track (the background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Change this to your desired track color */
+  }
+
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Change this to your desired handle color */
+    border-radius: 6px; /* Rounded corners for the handle */
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change this to the hover color you prefer */
+  }
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +44,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.car {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  animation: walk 1s infinite alternate;
+}
+
+@keyframes walk {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px); /* Adjust as needed for the walking effect */
+  }
 }
