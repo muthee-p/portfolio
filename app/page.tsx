@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex min-h-screen text-sm flex-col items-center justify-between md:px-8">
       
       <div className='pt-32 md:pt-8 z-20 bg-[#813e38] p-8 w-full flex flex-col md:flex-row items-center justify-around'>
-        <div className=' px-2 md:px-0 pb-8 md:pb-0 leading-loose'>
+        <div className='flex flex-col items-center md:items-start px-2 md:px-0 pb-8 md:pb-0 leading-loose'>
           <Image 
             src='/hi.svg'
             alt='Hello hand'
