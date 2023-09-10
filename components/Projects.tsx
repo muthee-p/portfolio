@@ -18,7 +18,7 @@ const Projects = () => {
 		image:"/images/unicab.png",
 		title: "Cab Driver Web-app",
 		description:'A web app for cab drivers, powered by PostgreSQL and Prisma, built with Next.js. Users can create accounts, log in securely using NextAuth authentication, and register as drivers. This project harnesses the power of TypeScript and utilizes the sleek design of Tailwind CSS.',
-		tags: ['Next.js', 'Next-auth', 'Node', 'Redux Toolkit', 'Typescript', 'Stripe', 'Tailwind CSS'],
+		tags: ['Next.js', 'Next-auth', 'Node', 'Typescript', 'Stripe', 'Tailwind CSS'],
 		page:'https://unicab.vercel.app/',
 		code:'https://github.com/muthee-p/unicab'
 	},
