@@ -1,11 +1,12 @@
 const Skills = () =>{
 	return(
-		<div>
-			<h2 className='pb-8 text-center text-lg font-bold'>Skills</h2>
-	      	<div className='flex justify-between gap-4 w-full md:p-12 '>
+		<div className="w-full md:pt-16 pb-8 ">
+			<h2 className=' border py-12 text-center text-2xl font-bold'
+				>&lt;Skills&gt;</h2>
+	      	<div className='flex justify-between md:gap-4 gap-2 md:px-12'>
 	       
-		       	<div className='p-2 border w-1/3 text-center'>
-			        <h4>FrontEnd skills</h4>
+		       	<div className='p-2 rounded-xl w-1/3 text-center bg-indigo-200 text-gray-900 leading-loose'>
+			        <h4>Front-end skills</h4>
 			        <p>HTML</p>
 			        <p>CSS</p>
 			        <p>JavaScript</p>
@@ -14,8 +15,8 @@ const Skills = () =>{
 			        <p>Tailwind</p>
 			        <p>Next Js</p>
 		       	</div>
-	       		<div className='p-2 border w-1/3 text-center'>
-			        <h4>Backend Skills</h4>
+	       		<div className='p-2 w-1/3 text-center bg-indigo-200 text-gray-900 rounded-xl leading-loose'>
+			        <h4 className="">Back-end Skills</h4>
 			        <p>Node</p>
 			        <p>Typescript</p>
 			        <p>MongoDb</p>
@@ -25,7 +26,7 @@ const Skills = () =>{
 			        <p>Expess</p>
 			        <p>Prisma</p>
 	      	 	</div>
-	       		<div className='p-2 border w-1/3 text-center'>
+	       		<div className='p-2 rounded-lg w-1/3 text-center bg-indigo-200 text-gray-900 leading-loose'>
 			        <h4>Tools</h4>
 			        <p>Git</p>
 			        <p>Figma</p>
