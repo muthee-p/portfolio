@@ -46,19 +46,45 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.car {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  animation: walk 1s infinite alternate;
+h4{
+  @apply font-bold py-2
 }
 
+.projects{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:1rem;
+}
 
-@keyframes walk {
+.car {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-10%);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.shake{
+  animation: move 1s infinite alternate;
+}
+
+@keyframes move {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(10px); /* Adjust as needed for the walking effect */
+    transform: translateX(10px);
+  }
+}
+
+
+@media (max-width: 768px){
+  .projects{
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 1rem;
+  }
+  .comp2{
+    order: -1;
   }
 }
