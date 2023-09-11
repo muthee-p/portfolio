@@ -47,7 +47,7 @@ body {
 }
 
 h4{
-  @apply font-bold py-2 text-base text-[#813e38]
+  @apply font-bold py-2 text-base 
 }
 h2{
   @apply text-[#813e38]

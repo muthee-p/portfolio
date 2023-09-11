@@ -70,7 +70,7 @@ const Projects = () => {
 			{projectContent.map((project) => (
 			 	<div 
 			    key={project.id}
-			    className=' rounded-lg border p-2 flex flex-col items-center bg-gray-100'
+			    className=' rounded-lg border p-2 flex flex-col items-center md:bg-gray-100 bg-gray-200'
 			  	>
 					<a href={project.page} target="_blank" rel="noopener noreferrer">
 						<Image

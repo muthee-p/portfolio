@@ -6,7 +6,7 @@ const Skills = () =>{
 	      	<div className='flex justify-between md:gap-4 gap-2 md:px-12'>
 	       
 		       	<div className='p-2 rounded-xl w-1/3 text-center bg-indigo-200 text-gray-900 leading-loose'>
-			        <h4 className="text-black">Front-end skills</h4>
+			        <h4 className="">Front-end skills</h4>
 			        <p>HTML</p>
 			        <p>CSS</p>
 			        <p>JavaScript</p>
@@ -16,7 +16,7 @@ const Skills = () =>{
 			        <p>Next Js</p>
 		       	</div>
 	       		<div className='p-2 w-1/3 text-center bg-indigo-200 text-gray-900 rounded-xl leading-loose'>
-			        <h4 className="text-black">Back-end Skills</h4>
+			        <h4 className="">Back-end Skills</h4>
 			        <p>Node</p>
 			        <p>Typescript</p>
 			        <p>MongoDb</p>
@@ -27,7 +27,7 @@ const Skills = () =>{
 			        <p>Prisma</p>
 	      	 	</div>
 	       		<div className='p-2 rounded-lg w-1/3 text-center bg-indigo-200 text-gray-900 leading-loose'>
-			        <h4 className="text-black">Tools</h4>
+			        <h4 className="">Tools</h4>
 			        <p>Git</p>
 			        <p>Figma</p>
 	       		</div>
