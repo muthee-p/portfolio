@@ -110,15 +110,15 @@ const SideBar = () => {
           </button>
         </div>
       
-      <p className={`${cv? 'block': 'hidden'}`}>
+      <p className={`${cv? 'block flex justify-between items-center': 'hidden'}`}>
         <a href='https://docs.google.com/document/d/1mP1rAD5Tt6Wyx-Qq_ogftmV3IFaax0VSmcKx1cwnU2M/edit?usp=sharing' target="_blank"
          className='underline text-indigo-300'>View Resumé 
         </a>
-         . 
-        <button className='disabled'><a href='/cv.pdf' download='Prudence-Resume.pdf'  
-          className='underline hover:text-indigo-300'
+ 
+        <a href='/cv.pdf' download='Prudence-Resume.pdf'  
+         disabled className='pointer-events-none px-2 py-1 bg-gray-400 text-white '
         > Download Resumé
-        </a></button>
+        </a>
 
       </p>
       
