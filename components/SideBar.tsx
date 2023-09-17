@@ -110,10 +110,15 @@ const SideBar = () => {
         </div>
       
       <p className={`${cv? 'block': 'hidden'}`}>
+        <a href='https://docs.google.com/document/d/1mP1rAD5Tt6Wyx-Qq_ogftmV3IFaax0VSmcKx1cwnU2M/edit?usp=sharing' target="_blank"
+         className=' hover:text-indigo-300'>View Resumé
+        </a>
+         . 
         <a href='/cv.pdf' download='Prudence-Resume.pdf'  
-          className=' underline hover:text-indigo-300'
+          className='disabled underline hover:text-indigo-300'
         >Download Resumé
         </a>
+
       </p>
       
       </div>

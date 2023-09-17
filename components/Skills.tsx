@@ -20,11 +20,12 @@ const Skills = () =>{
 			        <p>Node</p>
 			        <p>Typescript</p>
 			        <p>MongoDb</p>
-			        <p>PostGress</p>
+			        <p>Postgres</p>
 			        <p>Mysql</p>
 			        <p>Redux</p>
 			        <p>Expess</p>
 			        <p>Prisma</p>
+			        <p>PHP</p>
 	      	 	</div>
 	       		<div className='p-2 rounded-lg w-1/3 text-center bg-indigo-200 text-gray-900 leading-loose'>
 			        <h4 className="">Tools</h4>
