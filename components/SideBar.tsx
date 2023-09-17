@@ -52,6 +52,7 @@ const SideBar = () => {
         </p>
         <p>With a strong foundation in various programming languages and technologies, I thrive on turning ideas into reality through clean, maintainable code.
         </p>
+        <p className='pt-2'>I also have a string passion for problem solving and derive immense satisfaction from the process of finding solutions. Being part of the dynamic tech industry, keeps me on my toes, constantly learning about new tech and staying engaged in my work.</p>
       </div>
       </div>
 
